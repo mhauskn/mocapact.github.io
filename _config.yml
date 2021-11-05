@@ -1,0 +1,10 @@
+intro:
+title: DescribeWorld
+description: Project page for 'One-Shot Learning of Complex Tasks with Hierarchical Latent Language'
+buttons:
+  Blog: 'https://github.com/'
+  Paper: 'https://github.com/'
+  Code: 'https://github.com/'
+  Talk: 'https://github.com/'
+  Slides: 'https://github.com/'
+  Authors: '#authors'
