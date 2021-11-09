@@ -6,16 +6,16 @@ title: 'DescribeWorld: One-Shot Learning of Complex Tasks with Hierarchical Late
 
 <p class="cover" align="center"> <img src="assets/front_cartoon.jpg" width="90%" /> </p>
 
-## DescribeWorld
+## Abstract
 
-Humans have the capability, aided by the expressive, compositional nature of language, to learn quickly by
+> Humans have the capability, aided by the expressive, compositional nature of language, to learn quickly by
 demonstration. Given very few examples, they can generalize known concepts in order to infer novel goals then accomplish
 them in novel settings. Here we introduce DescribeWorld, a task environment designed to test this sort of generalization
 skill in grounded autonomous agents. We task agents first with inferring an unseen goal from a single demonstration in a
 2D Minecraft-style grid world, then with accomplishing the goal in a new setting without access to ground truth task
 descriptions. Goals are linguistically and procedurally composed of learnt concepts.
 
-Inspired by how humans leverage language as a powerful tool for generalization, we propose a neural agent infused with
+> Inspired by how humans leverage language as a powerful tool for generalization, we propose a neural agent infused with
 hierarchical latent language--both at the level of goal inference and subgoal planning-- that learns to perform
 grounded, one-shot demonstration following. We find that agents that thus reparametrize the task into a policy search
 through text space are better equipped to perform the challenge, particularly when faced with tests of systematic
@@ -26,6 +26,7 @@ generalization.
 This work tests whether artificial agents can learn new complex tasks just from a single demonstration. For example, we
 show a bot a demonstration of agent completing the task `build a house then go to the lumbershop`, then test whether the
 bot can accomplish the same task in a new gridworld environment.
+This task is difficult for an agent because this task involves many subtasks that require interacting with various domain objects in order to acquire tools and ingredients in the right order. Moreover, the agent _can't see the text description of the task_, so it must learn what the goal is from demonstration state transitions alone.
 
 <table>
 <tr> 
@@ -33,6 +34,9 @@ bot can accomplish the same task in a new gridworld environment.
 <td><img src="assets/task_demos/house_lumber_bot.gif"  /></td>
 </tr>
 </table>
+
+
+
 
 In order to test this, we construct a gridworld environment containing many subtasks with interrelated task
 dependencies.
@@ -45,17 +49,32 @@ That way, we can create an inventory of many high-level tasks whose subdependenc
 
 <table>
   <tr>
-    <td>Navigation to Locations</td>
+    <td>Navigating to Landmarks</td>
     <td>Crafting Items</td>
   </tr>
 <tr>
 <td><img src="assets/task_demos/tree_then_diamond.gif"  /></td>
-<td><img src="assets/task_demos/build_fence.gif" /></td>
+<td><img src="assets/task_demos/craft_necklace.gif" /></td>
 </tr>
   <tr> <td>Building Structures</td> <td>Placing Terrains</td></tr>
 <tr>
+<td><img src="assets/task_demos/build_fence.gif" /></td>
+<td><img src="assets/task_demos/dirt_water.gif"  /></td>
+</tr>
+<tr>
 <td>Covering Terrains</td>
 <td>Clearing Items</td>
+</tr>
+<tr>
+<td><img src="assets/task_demos/silver_cover_lava.gif" /></td>
+<td><img src="assets/task_demos/clear_grass_chicken.gif"  /></td>
+</tr>
+<tr>
+We also add environmental constraints, like penalties for walking on a terrain or rewards for walking on another.
+</tr>
+<tr>
+<td><img src="assets/task_demos/build_fence.gif" /></td>
+<td><img src="assets/task_demos/tree_then_diamond.gif"  /></td>
 </tr>
 </table>
 
