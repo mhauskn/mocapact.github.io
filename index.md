@@ -69,7 +69,7 @@ That way, an agent can learn to reuse subtasks in order to accomplish unseen tas
 <td>Clearing Items</td>
 </tr>
 <tr>
-<td><img src="assets/task_demos/silver_cover_lava.png" alt="silver_cover_lava" data-alt="assets/task_demos/silver_cover_lava.gif" /></td>
+<td><img class="gifimg" src="assets/task_demos/silver_cover_lava.png" alt="silver_cover_lava" data-alt="assets/task_demos/silver_cover_lava.gif" /></td>
 <td><img src="assets/task_demos/clear_grass_chicken.png" alt="clear_grass_chicken" data-alt="assets/task_demos/clear_grass_chicken.gif" /></td>
 </tr>
 <tr>

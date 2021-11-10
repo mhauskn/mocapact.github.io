@@ -21,12 +21,13 @@
     });
 
     // Change the image to .gif when clicked and vice versa.
-    $('figure').on('click', function() {
+    $('.gifimg').on('click', function() {
 
         var $this   = $(this),
             $index  = $this.index(),
 
-            $img    = $this.children('img'),
+            // $img    = $this.children('img'),
+            $img    = $this,
             $imgSrc = $img.attr('src'),
             $imgAlt = $img.attr('data-alt'),
             $imgExt = $imgAlt.split('.');
