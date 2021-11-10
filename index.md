@@ -93,4 +93,3 @@ We devise a neural agent that leverages language at multiple levels of abstracti
 <img src="assets/model_diagram.jpg">
 
 
-<!-- ![generalization_splits.pdf](https://github.com/describeworld/describeworld.github.io/files/7479497/generalization_splits.pdf) -->
