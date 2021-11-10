@@ -108,17 +108,17 @@ a {
 
 .project-logo {
   @include large {
-    width: 8rem;
+    width: 42rem;
     margin: .8rem 0 .8rem;
   }
 
   @include medium {
-    width: 4.5rem;
+    width: 21rem;
     margin: .7rem 0 .45rem;
   }
 
   @include small {
-    width: 3rem;
+    width: 12rem;
     margin: .7rem 0 .3rem;
   }
 }
