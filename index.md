@@ -89,6 +89,7 @@ If a child were to learn how to `build an iron shrine` and `place wood flooring`
 
 # Hierarchical Latent Language Policy Agent
 We devise a neural agent that leverages language at multiple levels of abstraction in order to learn complex tasks from demonstration.
+This agent is made up of a **describer**, which generates a text description of a demonstrated task, an **instructor**, which generates intermediate-level planning instructions, and an **executor**, which completes instructions by executing low-level actions.
 
 <img src="assets/model_diagram.jpg">
 
