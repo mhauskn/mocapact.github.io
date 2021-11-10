@@ -3,7 +3,7 @@
     // Get the .gif images from the "data-alt".
     var getGif = function() {
         var gif = [];
-        $('img').each(function() {
+        $('.gifimg').each(function() {
             var data = $(this).data('alt');
             gif.push(data);
         });
