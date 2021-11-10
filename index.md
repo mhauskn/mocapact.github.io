@@ -42,29 +42,32 @@ That way, an agent can learn to reuse subtasks in order to accomplish unseen tas
 ### Task Categories
 
 <table>
+<tr>
+<td colspan="3">
+We create multiple types of task end goals for the agent to accomplish.
+</td>
+</tr>
   <tr>
     <td>Navigating to Landmarks</td>
     <td>Crafting Items</td>
+<td>Building Structures</td>
   </tr>
 <tr>
 <td><figure> <img src="assets/task_demos/tree_then_diamond.png" alt="tree_then_diamond" data-alt="assets/task_demos/tree_then_diamond.gif"  /> </figure></td>
 <td><figure> <img src="assets/task_demos/craft_necklace.png" alt="craft_necklace" data-alt="assets/task_demos/craft_necklace.gif" /> </figure></td>
-</tr>
-  <tr> <td>Building Structures</td> <td>Placing Terrains</td></tr>
-<tr>
 <td><figure> <img src="assets/task_demos/build_fence.png" alt="build_fence" data-alt="assets/task_demos/build_fence.gif" /> </figure></td>
-<td><figure> <img src="assets/task_demos/dirt_water.png" alt="dirt_water" data-alt="assets/task_demos/dirt_water.gif"  /> </figure></td>
 </tr>
-<tr>
+  <tr>  <td>Placing Terrains</td>
 <td>Covering Terrains</td>
 <td>Clearing Items</td>
 </tr>
 <tr>
+<td><figure> <img src="assets/task_demos/dirt_water.png" alt="dirt_water" data-alt="assets/task_demos/dirt_water.gif"  /> </figure></td>
 <td><figure> <img src="assets/task_demos/silver_cover_lava.png" alt="silver_cover_lava" data-alt="assets/task_demos/silver_cover_lava.gif" /> </figure></td>
 <td><figure> <img src="assets/task_demos/clear_grass_chicken.png" alt="clear_grass_chicken" data-alt="assets/task_demos/clear_grass_chicken.gif" /> </figure></td>
 </tr>
 <tr>
-<td colspan="2">
+<td colspan="3">
 We also add environmental constraints, like penalties for walking on a terrain or rewards for walking on another.
 </td>
 </tr>
