@@ -28,7 +28,7 @@ bot can accomplish the same task in a new gridworld environment:
 <tr> 
 <td><figure> <img src="assets/task_demos/house_lumber_agent.png" alt="house_lumber_agent" data-alt="assets/task_demos/house_lumber_agent.gif" /> </figure></td>
 <td>
-<img src="assets/dbot.png"/>
+<img src="assets/dbot.png" width="10rem" />
 </td>
 <td><figure> <img src="assets/task_demos/house_lumber_bot.png" alt="house_lumber_bot" data-alt="assets/task_demos/house_lumber_bot.gif"  /> </figure></td>
 </tr>
