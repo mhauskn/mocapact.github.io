@@ -3,7 +3,7 @@
     // Get the .gif images from the "data-alt".
     var getGif = function() {
         var gif = [];
-        $('.gifimg').each(function() {
+        $('img').each(function() {
             var data = $(this).data('alt');
             gif.push(data);
         });
@@ -21,13 +21,12 @@
     });
 
     // Change the image to .gif when clicked and vice versa.
-    $('.gifimg').on('click', function() {
+    $('figure').on('click', function() {
 
         var $this   = $(this),
             $index  = $this.index(),
 
-            // $img    = $this.children('img'),
-            $img    = $this,
+            $img    = $this.children('img'),
             $imgSrc = $img.attr('src'),
             $imgAlt = $img.attr('data-alt'),
             $imgExt = $imgAlt.split('.');

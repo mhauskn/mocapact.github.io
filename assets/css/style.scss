@@ -67,11 +67,11 @@ figure {
   position: relative;
   cursor: pointer;
 }
-.gifimg:before,
-.gifimg:after {
+figure:before,
+figure:after {
   position: absolute;
 }
-.gifimg:before {
+figure:before {
   top: 103.5px;
   left: 50%;
   margin-left: -25px;
@@ -87,7 +87,7 @@ figure {
   font-size: 19px;
   color: #F5F7FA;
 }
-.gifimg:after {
+figure:after {
   content: 'gif';
   position: absolute;
   display: inline-block;

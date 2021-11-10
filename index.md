@@ -34,8 +34,8 @@ bot can accomplish the same task in a new gridworld environment:
 
 <table>
 <tr> 
-<td><img src="assets/task_demos/house_lumber_agent.png" alt="house_lumber_agent" data-alt="assets/task_demos/house_lumber_agent.gif" /></td>
-<td><img src="assets/task_demos/house_lumber_bot.png" alt="house_lumber_bot" data-alt="assets/task_demos/house_lumber_bot.gif"  /></td>
+<td><figure> <img src="assets/task_demos/house_lumber_agent.png" alt="house_lumber_agent" data-alt="assets/task_demos/house_lumber_agent.gif" /> </figure></td>
+<td><figure> <img src="assets/task_demos/house_lumber_bot.png" alt="house_lumber_bot" data-alt="assets/task_demos/house_lumber_bot.gif"  /> </figure></td>
 </tr>
 </table>
 
@@ -45,7 +45,7 @@ bot can accomplish the same task in a new gridworld environment:
 In order to test this, we construct a gridworld environment containing many subtasks with interrelated task dependencies.
 That way, an agent can learn to reuse subtasks in order to accomplish unseen tasks within realistic expectations.
 
-<p class="cover" align="center"> <img src="assets/example_unroll.png" alt="example_unroll" data-alt="assets/example_unroll.gif"  /> </p>
+<p class="cover" align="center"> <figure> <img src="assets/example_unroll.png" alt="example_unroll" data-alt="assets/example_unroll.gif"  /> </figure> </p>
 
 
 ### Task Categories
@@ -56,21 +56,21 @@ That way, an agent can learn to reuse subtasks in order to accomplish unseen tas
     <td>Crafting Items</td>
   </tr>
 <tr>
-<td><img src="assets/task_demos/tree_then_diamond.png" alt="tree_then_diamond" data-alt="assets/task_demos/tree_then_diamond.gif"  /></td>
-<td><img src="assets/task_demos/craft_necklace.png" alt="craft_necklace" data-alt="assets/task_demos/craft_necklace.gif" /></td>
+<td><figure> <img src="assets/task_demos/tree_then_diamond.png" alt="tree_then_diamond" data-alt="assets/task_demos/tree_then_diamond.gif"  /> </figure></td>
+<td><figure> <img src="assets/task_demos/craft_necklace.png" alt="craft_necklace" data-alt="assets/task_demos/craft_necklace.gif" /> </figure></td>
 </tr>
   <tr> <td>Building Structures</td> <td>Placing Terrains</td></tr>
 <tr>
-<td><img src="assets/task_demos/build_fence.png" alt="build_fence" data-alt="assets/task_demos/build_fence.gif" /></td>
-<td><img src="assets/task_demos/dirt_water.png" alt="dirt_water" data-alt="assets/task_demos/dirt_water.gif"  /></td>
+<td><figure> <img src="assets/task_demos/build_fence.png" alt="build_fence" data-alt="assets/task_demos/build_fence.gif" /> </figure></td>
+<td><figure> <img src="assets/task_demos/dirt_water.png" alt="dirt_water" data-alt="assets/task_demos/dirt_water.gif"  /> </figure></td>
 </tr>
 <tr>
 <td>Covering Terrains</td>
 <td>Clearing Items</td>
 </tr>
 <tr>
-<td><img class="gifimg" src="assets/task_demos/silver_cover_lava.png" alt="silver_cover_lava" data-alt="assets/task_demos/silver_cover_lava.gif" /></td>
-<td><img src="assets/task_demos/clear_grass_chicken.png" alt="clear_grass_chicken" data-alt="assets/task_demos/clear_grass_chicken.gif" /></td>
+<td><figure> <img src="assets/task_demos/silver_cover_lava.png" alt="silver_cover_lava" data-alt="assets/task_demos/silver_cover_lava.gif" /> </figure></td>
+<td><figure> <img src="assets/task_demos/clear_grass_chicken.png" alt="clear_grass_chicken" data-alt="assets/task_demos/clear_grass_chicken.gif" /> </figure></td>
 </tr>
 <tr>
 <th colspan="2">
@@ -78,8 +78,8 @@ We also add environmental constraints, like penalties for walking on a terrain o
 </th>
 </tr>
 <tr>
-<td><img src="assets/task_demos/stone_then_furnace.png" alt="stone_then_furnace" data-alt="assets/task_demos/stone_then_furnace.gif" /></td>
-<td><img src="assets/task_demos/iron_cover_lava_pig_road.png" alt="iron_cover_lava_pig_road" data-alt="assets/task_demos/iron_cover_lava_pig_road.gif"  /></td>
+<td><figure> <img src="assets/task_demos/stone_then_furnace.png" alt="stone_then_furnace" data-alt="assets/task_demos/stone_then_furnace.gif" /> </figure></td>
+<td><figure> <img src="assets/task_demos/iron_cover_lava_pig_road.png" alt="iron_cover_lava_pig_road" data-alt="assets/task_demos/iron_cover_lava_pig_road.gif"  /> </figure></td>
 </tr>
 </table>
 
