@@ -83,7 +83,6 @@ We also add environmental constraints, like penalties for walking on a terrain o
 </tr>
 </table>
 
-<script src="js/script.js"></script>
 
 
 <!-- ![example_unroll](https://user-images.githubusercontent.com/93727661/140437262-908cd450-9d06-4126-a2ca-263b55063c79.gif) -->
