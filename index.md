@@ -16,7 +16,8 @@ demonstration. Given very few examples, they can generalize known concepts in or
 ## DescribeWorld: A Demonstration/Description-Following Environment for Tasks with Complex Subdependencies
 
 This work tests whether artificial agents can learn new complex tasks just from a single demonstration.
-This task is difficult for an agent because this task involves many subtasks that require interacting with various domain objects in order to acquire tools and ingredients in the right order. Moreover, the agent _can't see the text description of the task_, so it must learn what the goal is from demonstration state transitions alone.
+This task is difficult for an agent because we _prevent it from accessing a text description of the task_, so it must learn what the goal is from demonstration state transitions alone. 
+It must figure out from the demonstration which sequence of subtasks will accomplish the goal. Subtasks involve interacting with various domain objects to acquire tools and ingredients, craft items, build structures and place terrains.
 
 
 For example, we
@@ -26,6 +27,9 @@ bot can accomplish the same task in a new gridworld environment:
 <table>
 <tr> 
 <td><figure> <img src="assets/task_demos/house_lumber_agent.png" alt="house_lumber_agent" data-alt="assets/task_demos/house_lumber_agent.gif" /> </figure></td>
+<td>
+<img src="assets/dbot.png"/>
+</td>
 <td><figure> <img src="assets/task_demos/house_lumber_bot.png" alt="house_lumber_bot" data-alt="assets/task_demos/house_lumber_bot.gif"  /> </figure></td>
 </tr>
 </table>
@@ -39,12 +43,10 @@ That way, an agent can learn to reuse subtasks in order to accomplish unseen tas
 <p class="cover" align="center"> <figure> <img src="assets/example_unroll.png" alt="example_unroll" data-alt="assets/example_unroll.gif"  /> </figure> </p>
 
 
-### Task Categories
-
 <table>
 <tr>
 <td colspan="3">
-We create multiple types of task end goals for the agent to accomplish.
+We create multiple types of task end goals for the agent to accomplish. We pair each task with an oracle that derives the sequence of subtasks needed to be completed. 
 </td>
 </tr>
   <tr>
@@ -69,24 +71,26 @@ We create multiple types of task end goals for the agent to accomplish.
 <tr>
 <td colspan="3">
 We also add environmental constraints, like penalties for walking on a terrain or rewards for walking on another.
+This, in addition to various compositions of end goals, gives us thousands of unique end goals for our agent to learn.
 </td>
 </tr>
 <tr>
 <td><figure> <img src="assets/task_demos/stone_then_furnace.png" alt="stone_then_furnace" data-alt="assets/task_demos/stone_then_furnace.gif" /> </figure></td>
 <td><figure> <img src="assets/task_demos/iron_cover_lava_pig_road.png" alt="iron_cover_lava_pig_road" data-alt="assets/task_demos/iron_cover_lava_pig_road.gif"  /> </figure></td>
+<td><figure> <img src="assets/task_demos/wood_shrine_wood_flooring_gold_cover_lava.png" alt="iron_cover_lava_pig_road" 
+data-alt="assets/task_demos/wood_shrine_wood_flooring_gold_cover_lava.gif"  /> </figure></td>
 </tr>
 </table>
 
+# Testing for Language-Aided Systematic Generalization
+If a child were to learn how to `build an iron shrine` and `place wood flooring`, they could work out how to `place iron flooring` by recombining various ingredients. We test for this sort of ability in our agents by constructing **[systematic generalization splits](https://cims.nyu.edu/~brenden/papers/RuisEtAl2020NeurIPS.pdf)** that require procedural recombination of learned concepts in order to solve hidden tasks.
 
+<img src="assets/generalization_splits.png">
 
-<!-- ![example_unroll](https://user-images.githubusercontent.com/93727661/140437262-908cd450-9d06-4126-a2ca-263b55063c79.gif) -->
+# Hierarchical Latent Language Policy Agent
+We devise a neural agent that leverages language at multiple levels of abstraction in order to learn complex tasks from demonstration.
 
-<!-- ![task_categories.pdf](https://github.com/describeworld/describeworld.github.io/files/7479511/task_categories.pdf) -->
+<img src="assets/model_diagram.jpg">
 
-## Hierarchical Latent Language Policy Agent
-
-<!-- ![HLLP_diagram.pdf](https://github.com/describeworld/describeworld.github.io/files/7479494/HLLP_diagram.pdf) -->
-
-## Testing for Language-Aided Systematic Generalization
 
 <!-- ![generalization_splits.pdf](https://github.com/describeworld/describeworld.github.io/files/7479497/generalization_splits.pdf) -->
