@@ -64,9 +64,9 @@ That way, an agent can learn to reuse subtasks in order to accomplish unseen tas
 <td><figure> <img src="assets/task_demos/clear_grass_chicken.png" alt="clear_grass_chicken" data-alt="assets/task_demos/clear_grass_chicken.gif" /> </figure></td>
 </tr>
 <tr>
-<th colspan="2">
+<td colspan="2">
 We also add environmental constraints, like penalties for walking on a terrain or rewards for walking on another.
-</th>
+</td>
 </tr>
 <tr>
 <td><figure> <img src="assets/task_demos/stone_then_furnace.png" alt="stone_then_furnace" data-alt="assets/task_demos/stone_then_furnace.gif" /> </figure></td>
