@@ -59,13 +59,13 @@ We create multiple types of task end goals for the agent to accomplish. We pair 
 </tr>
   <tr>
 <td>Building Structures</td>
-  <tr>  <td>Placing Terrains</td>
+ <td>Placing Terrains</td>
   </tr>
 <tr>
 <td><figure> <img src="assets/task_demos/build_fence.png" alt="build_fence" data-alt="assets/task_demos/build_fence.gif" /> </figure></td>
 <td><figure> <img src="assets/task_demos/dirt_water.png" alt="dirt_water" data-alt="assets/task_demos/dirt_water.gif"  /> </figure></td>
 </tr>
-
+<tr>
 <td>Covering Terrains</td>
 <td>Clearing Items</td>
 </tr>
