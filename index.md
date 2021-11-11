@@ -40,7 +40,7 @@ bot can accomplish the same task in a new gridworld environment:
 In order to test this, we construct a gridworld environment containing many subtasks with interrelated task dependencies.
 That way, an agent can learn to reuse subtasks in order to accomplish unseen tasks within realistic expectations.
 
-<p class="cover" align="center"> <figure> <img src="assets/example_unroll.png" alt="example_unroll" data-alt="assets/example_unroll.gif"  /> </figure> </p>
+<p class="cover" align="center"> <figure> <img src="assets/task_demos/full_unroll_barn_silver_earrings.png" alt="full_unroll_barn_silver_earrings" data-alt="assets/task_demos/full_unroll_barn_silver_earrings.gif"  /> </figure> </p>
 
 
 <table>
