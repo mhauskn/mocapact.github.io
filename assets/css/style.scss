@@ -33,6 +33,10 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  display: block;
   //border: 5px solid #fff;
   vertical-align: top;
   -webkit-transition: opacity 350ms;
@@ -90,9 +94,9 @@ figure:before {
   font-family: 'Ionicons';
   content: '\f215';
   text-align: center;
-  line-height: 60px;
+  line-height: 63px;
   font-size: 19px;
-  color: #F5F7FA;
+  color: #353638;
 }
 //figure:after {
 //  content: 'gif';
