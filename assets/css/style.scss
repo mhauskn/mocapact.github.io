@@ -82,17 +82,17 @@ figure:before {
   width: 70px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  position:absolute;
+  //position:absolute;
   height: 70px;
-  border: 3px solid rgba(220, 217, 217, 0.86);
-  border-radius: 25px;
-  background-color: rgba(244, 245, 248, 0.3);
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  border-radius: 35px;
+  background-color: rgba(204, 209, 217, 0.3);
   font-family: 'Ionicons';
   content: '\f215';
   text-align: center;
-  line-height: 45px;
+  line-height: 60px;
   font-size: 19px;
-  color: #353638;
+  color: #F5F7FA;
 }
 //figure:after {
 //  content: 'gif';
