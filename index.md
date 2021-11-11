@@ -4,6 +4,7 @@ title: 'DescribeWorld: One-Shot Learning of Complex Tasks with Hierarchical Late
 
 <style>thead { display: none; }</style>
 
+<img src="assets/front_cartoon.png"  alt="overview">
 
 
 ## Abstract
