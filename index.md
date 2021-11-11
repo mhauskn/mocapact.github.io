@@ -81,7 +81,7 @@ This, in addition to various compositions of end goals, gives us thousands of un
 </td>
 </tr>
 <tr>
-<td><figure> <img src="assets/task_demos/stone_then_furnace.png" alt="stone_then_furnace" data-alt="assets/task_demos/stone_then_furnace.gif" /> </figure></td>
+<!-- td><figure> <img src="assets/task_demos/stone_then_furnace.png" alt="stone_then_furnace" data-alt="assets/task_demos/stone_then_furnace.gif" /> </figure></td -->
 <td><figure> <img src="assets/task_demos/iron_cover_lava_pig_road.png" alt="iron_cover_lava_pig_road" data-alt="assets/task_demos/iron_cover_lava_pig_road.gif"  /> </figure></td>
 <td><figure> <img src="assets/task_demos/wood_shrine_wood_flooring_gold_cover_lava.png" alt="iron_cover_lava_pig_road" 
 data-alt="assets/task_demos/wood_shrine_wood_flooring_gold_cover_lava.gif"  /> </figure></td>
