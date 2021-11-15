@@ -98,4 +98,8 @@ This agent is made up of a **describer**, which generates a text description of 
 
 <img src="assets/model_diagram.jpg">
 
+# Findings
+* Representing policy decisions through latent language representation improves performance on one-shot demonstration following of novel tasks. It also improves the interpretability of the decision-making process and isolates the levels of abstraction at which generalization needs to occur, since our executor module performs very effectively in many settings without access to high-level task information.
+* However, latent language is not a compositional generalization "silver bullet"; models still fail to perform the held-out tasks in our systematic generalization splits.
+
 
