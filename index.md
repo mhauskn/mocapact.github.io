@@ -2,8 +2,6 @@
 title: 'MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control' layout: default
 ---
 
-authors: Nolan Wagener, Andrey Kolobov, Felipe Frujeri, Ricky Loynd, Matthew Hausknecht
-
 <style>thead { display: none; }</style>
 
 <img src="assets/front_cartoon.jpg" alt="overview" width="60%">
