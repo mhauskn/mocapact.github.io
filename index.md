@@ -4,7 +4,7 @@ title: 'MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control' layout: d
 
 <style>thead { display: none; }</style>
 
-<img src="assets/front_cartoon.jpg" alt="overview" width="60%">
+<img src="assets/MoCapAct.jpg" alt="overview" width="60%">
 
 
 ## Abstract
@@ -17,10 +17,10 @@ The MoCapAct Dataset consists of expert policies that are trained to track indiv
 
 <table>
 <tr> 
-<td><figure> <img src="assets/task_demos/house_lumber_agent.png" alt="house_lumber_agent" data-alt="assets/task_demos/house_lumber_agent.gif" width="60%"/> </figure></td>
+<td><figure> <img src="assets/cmu_humanoid.png" alt="house_lumber_agent" data-alt="assets/cmu_humanoid.png" width="60%"/> </figure></td>
 
 <td>
-<figure> <img src="assets/task_demos/house_lumber_bot.png" alt="house_lumber_bot" data-alt="assets/task_demos/house_lumber_bot.gif" width="60%" /> </figure></td>
+<figure> <img src="assets/cmu_humanoid.png" alt="house_lumber_bot" data-alt="assets/cmu_humanoid.png" width="60%" /> </figure></td>
 </tr>
 </table>
 
