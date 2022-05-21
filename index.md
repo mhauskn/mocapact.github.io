@@ -1,6 +1,8 @@
 ---
-title: 'DescribeWorld: One-Shot Learning from a Demonstration with Hierarchical Latent Language' layout: default
+title: 'MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control' layout: default
 ---
+
+authors: Nolan Wagener, Andrey Kolobov, Felipe Frujeri, Ricky Loynd, Matthew Hausknecht
 
 <style>thead { display: none; }</style>
 
@@ -9,21 +11,11 @@ title: 'DescribeWorld: One-Shot Learning from a Demonstration with Hierarchical 
 
 ## Abstract
 
-> Humans have the capability, aided by the expressive, compositional nature of language, to learn quickly by
-demonstration. Given very few examples, they can generalize known concepts in order to infer novel goals then accomplish them in novel settings. Here we introduce DescribeWorld, a task environment designed to test this sort of generalization skill in grounded autonomous agents. We task agents first with inferring an unseen goal from a single demonstration in a 2D Minecraft-style grid world, then with accomplishing the goal in a new setting without access to ground truth task descriptions. Goals are linguistically and procedurally composed of learnt concepts.
+> This abstract is very abstract
 
-> Inspired by how humans leverage language as a powerful tool for generalization, we propose a neural agent infused with hierarchical latent language--both at the level of goal inference and subgoal planning-- that learns to perform grounded, one-shot demonstration following. We find that agents that thus reparametrize the task into a policy search through text space are better equipped to perform the challenge, particularly when faced with tests of systematic generalization.
+## MoCapAct: Dataset
 
-## DescribeWorld: A Demonstration/Description-Following Environment for Tasks with Complex Subdependencies
-
-This work tests whether artificial agents can learn new complex tasks just from a single demonstration.
-This task is difficult for an agent because we _prevent it from accessing a text description of the task_, so it must learn what the goal is from demonstration state transitions alone. 
-It must figure out from the demonstration which sequence of subtasks will accomplish the goal. Subtasks involve interacting with various domain objects to acquire tools and ingredients, craft items, build structures and place terrains.
-
-
-For example, we
-show a bot a demonstration of agent completing the task `build a house then go to the lumbershop`, then test whether the
-bot can accomplish the same task in a new gridworld environment:
+The MoCapAct Dataset consists of expert policies that are trained to track individual clips as well as noisy rollouts from each expert. These rollouts can subsequently be used to train a multi-clip expert via distillation.
 
 <table>
 <tr> 
