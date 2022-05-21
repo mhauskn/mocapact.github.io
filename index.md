@@ -26,11 +26,11 @@ The MoCapAct Dataset consists of expert policies that are trained to track indiv
 
 ## How to Download
 
-TODO: Add bash scripts or other instructions to download the dataset.
+Add bash scripts or other instructions to download the dataset.
 
 ## Distilled Experts
 
-TODO: Videos of experts trained using this dataset.
+Videos of experts trained using this dataset.
 
 # Authors
 
