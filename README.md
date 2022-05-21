@@ -1,3 +1,3 @@
-# describeworld.github.io
+# mocapact.github.io
 
-Github Page for the paper "One-Shot Learning from a Demonstration with Hierarchical Latent Language".
+Github Page for the paper MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control.

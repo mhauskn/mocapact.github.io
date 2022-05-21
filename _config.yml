@@ -1,10 +1,10 @@
 intro:
-title: DescribeWorld
-description: Project page for 'One-Shot Learning from a Demonstration with Hierarchical Latent Language'
+title: MoCapAct
+description: A Multi-Task Dataset for Simulated Humanoid Control
 buttons:
 #  Blog: 'https://github.com/'
 #  Paper: 'https://github.com/'
 #  Code: 'https://github.com/'
 #  Talk: 'https://github.com/'
 #  Slides: 'https://github.com/'
-#  Authors: '#authors'
+  Authors: '#authors'
