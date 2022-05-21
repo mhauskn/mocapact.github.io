@@ -2,9 +2,9 @@ intro:
 title: MoCapAct
 description: A Multi-Task Dataset for Simulated Humanoid Control
 buttons:
-#  Blog: 'https://github.com/'
-#  Paper: 'https://github.com/'
-#  Code: 'https://github.com/'
-#  Talk: 'https://github.com/'
-#  Slides: 'https://github.com/'
-  Authors: '#authors'
+ Blog: 'https://github.com/'
+ Paper: 'https://github.com/'
+ Code: 'https://github.com/'
+ Talk: 'https://github.com/'
+ Slides: 'https://github.com/'
+ Authors: '#authors'

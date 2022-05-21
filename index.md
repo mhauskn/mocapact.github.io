@@ -32,3 +32,6 @@ TODO: Add bash scripts or other instructions to download the dataset.
 
 TODO: Videos of experts trained using this dataset.
 
+# Authors
+
+These are our authors
