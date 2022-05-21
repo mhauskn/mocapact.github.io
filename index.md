@@ -9,7 +9,7 @@ title: 'MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control' layout: d
 
 ## Abstract
 
-> This abstract is very abstract
+> We can include an abstract here... if we want?
 
 ## MoCapAct: Dataset
 

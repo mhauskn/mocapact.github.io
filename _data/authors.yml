@@ -5,3 +5,6 @@
 #   title: Author Title
 #   url: https://link_to_author_website.com
  - name: Matthew Hausknecht
+   image: https://pic_of_author.jpg
+   title: Do we really need titles?
+   url: https://link_to_author_website.com
