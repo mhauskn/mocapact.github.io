@@ -4,9 +4,6 @@ title: 'MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control' layout: d
 
 <style>thead { display: none; }</style>
 
-<img src="assets/MoCapAct.jpg" alt="overview" width="60%">
-
-
 ## Abstract
 
 > We can include an abstract here... if we want?
@@ -14,6 +11,16 @@ title: 'MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control' layout: d
 ## MoCapAct: Dataset
 
 The MoCapAct Dataset consists of expert policies that are trained to track individual clips as well as noisy rollouts from each expert. These rollouts can subsequently be used to train a multi-clip expert via distillation.
+
+<img src="assets/MoCapAct.jpg" alt="overview" width="60%">
+
+## How to Download
+
+Add bash scripts or other instructions to download the dataset.
+
+## Distilled Experts
+
+Videos of experts trained using this dataset.
 
 <table>
 <tr> 
@@ -24,13 +31,6 @@ The MoCapAct Dataset consists of expert policies that are trained to track indiv
 </tr>
 </table>
 
-## How to Download
-
-Add bash scripts or other instructions to download the dataset.
-
-## Distilled Experts
-
-Videos of experts trained using this dataset.
 
 # Authors
 
