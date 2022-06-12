@@ -22,14 +22,19 @@ Add bash scripts or other instructions to download the dataset.
 
 Videos of experts trained using this dataset.
 
-<table>
+<video width="320" height="240" controls>
+  <source src="assets/go_to_target_sparse.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
+<!-- <table>
 <tr> 
 <td><figure> <img src="assets/cmu_humanoid.png" alt="house_lumber_agent" data-alt="assets/cmu_humanoid.png" width="60%"/> </figure></td>
 
 <td>
 <figure> <img src="assets/cmu_humanoid.png" alt="house_lumber_bot" data-alt="assets/cmu_humanoid.png" width="60%" /> </figure></td>
 </tr>
-</table>
+</table> -->
 
 # Authors
 
