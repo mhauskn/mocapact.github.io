@@ -25,10 +25,10 @@ Videos of experts trained using this dataset.
 <table>
 <tr> 
 <td>
-    <figure> 
+    <!-- <figure>  -->
         <video width="640" height="480" src="assets/go_to_target_sparse.mp4" type="video/mp4" controls></video>         
         <figcaption>Go-to-Target Task.</figcaption>
-    </figure>
+    <!-- </figure> -->
 </td>
 
 <td>
