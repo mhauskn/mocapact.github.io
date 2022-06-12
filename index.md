@@ -26,17 +26,8 @@ Videos of experts trained using this dataset.
 <tr> 
 <td>
     <figure> 
-        <video width="640" height="480" controls>
-            <source src="assets/go_to_target_sparse.mp4" type="video/mp4">
-        </video>         
-        <figcaption>
-            <h1>
-                Title for Video
-            </h1>
-            <p>
-                Subcaption for video
-            </p>
-        </figcaption>
+        <video width="640" height="480" src="assets/go_to_target_sparse.mp4" type="video/mp4" controls></video>         
+        <figcaption>Go-to-Target Task.</figcaption>
     </figure>
 </td>
 
