@@ -18,6 +18,23 @@ The MoCapAct Dataset consists of expert policies that are trained to track indiv
 
 Add bash scripts or other instructions to download the dataset.
 
+## Clip Snippet Experts
+We train an expert policy for each of the 2589 snippets within the MoCap dataset.
+We find that the experts faithfully reproduce the overwhelming majorty of clips.
+On clips where the expert deviates from the clip (e.g., bottom right), the expert learns some other behavior to keep the episode from terminating early.
+<table>
+<tr>
+  <td><video width="320" height="240" src="assets/clip_expert/deterministic/CMU_016_22-0-82.mp4" type="video/mp4" controls></video></td>
+  <td><video width="320" height="240" src="assets/clip_expert/deterministic/CMU_038_03-0-208.mp4" type="video/mp4" controls></video></td>
+  <td><video width="320" height="240" src="assets/clip_expert/deterministic/CMU_015_04-1036-1217.mp4" type="video/mp4" controls></video></td>
+</tr>
+<tr>
+  <td><video width="320" height="240" src="assets/clip_expert/deterministic/CMU_049_07-0-127.mp4" type="video/mp4" controls></video></td>
+  <td><video width="320" height="240" src="assets/clip_expert/deterministic/CMU_061_01-172-377.mp4" type="video/mp4" controls></video></td>
+  <td><video width="320" height="240" src="assets/clip_expert/deterministic/CMU_075_09-0-203.mp4" type="video/mp4" controls></video></td>
+</tr>
+</table>
+
 ## Distilled Experts
 
 Videos of experts trained using this dataset.
