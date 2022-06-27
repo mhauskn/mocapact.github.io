@@ -64,6 +64,7 @@ print("Expert actions from first rollout episode:")
 print(dset["CMU_002_01-0-92/0/actions"][...])
 ```
 
+**<span style="color:red">Note:</span>** All experts and rollouts are only compatible with MuJoCo 2.1.5 or earlier due to MuJoCo 2.2.0 changing how actuator forces are calculated.
 
 ## Clip Snippet Experts
 We train an expert policy for each of the 2589 snippets within the MoCap dataset.
@@ -122,5 +123,6 @@ On other clips, the policy can only track the clip for a short time before makin
 </table>
 
 ## Task Transfer
+We can re-use the low-level component of the mutli-clip policy to aid in learning new humanoid tasks.
 
 ## Motion Completion
