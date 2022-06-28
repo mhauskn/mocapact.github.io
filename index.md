@@ -148,8 +148,8 @@ In a velocity control task, we similarly find a low-level policy produces natura
   <td><video width="320" height="240" src="assets/transfer/velocity_control/no_low_level.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><img src="assets/transfer/velocity_control/general_low_level.png" width="90%"></td>
-  <td><img src="assets/transfer/velocity_control/no_low_level.png" width="90%"></td>
+  <td><img src="assets/transfer/velocity_control/general_low_level.png" width="320"></td>
+  <td><img src="assets/transfer/velocity_control/no_low_level.png" width="320"></td>
 </tr>
 </table>
 
