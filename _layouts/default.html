@@ -22,6 +22,9 @@
       <span>{{ line }}</span><br>
       {%- endfor -%}
       </h2>
+      <h2 class="project-authors">
+      <span>{{ site.authors }}</span><br>
+      </h2>
       {% for link in site.buttons %}
         <a href="{{ link[1] }}" class="btn">{{ link[0] }}</a>
       {% endfor %}
