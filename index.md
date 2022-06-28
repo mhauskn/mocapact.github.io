@@ -22,7 +22,7 @@ Finally, we use MoCapAct to train an autoregressive GPT model and show that it c
 
 ## MoCapAct Dataset
 The MoCapAct dataset consists of:
-- expert policies that are trained to track individual clips and
+- expert policies that are trained to track individual clip snippets and
 - HDF5 files of noisy rollouts collected from each expert.
 
 We include zipped rollout datasets of two sizes: a "small" 46 GB dataset with 20 rollouts per snippet and a "large" 559 GB dataset with 200 rollouts per snippet.
@@ -124,5 +124,33 @@ On other clips, the policy can only track the clip for a short time before makin
 
 ## Task Transfer
 We can re-use the low-level component of the mutli-clip policy to aid in learning new humanoid tasks.
+
+In a go-to-target task with a sparse reward, we find that including a low-level policy is needed to solve the task. The low-level policy introduces natural gaits, whereas not using a low-level policy produces unstable contorting behavior.
+<table>
+<tr>
+  <td><center><font size="4">General low-level policy</font></center></td>
+  <td><center><font size="4">No low-level policy</font></center></td>
+</tr>
+<tr>
+  <td><video width="320" height="240" src="assets/transfer/go_to_target/general_low_level.mp4" type="video/mp4" controls></video></td>
+  <td><video width="320" height="240" src="assets/transfer/go_to_target/no_low_level.mp4" type="video/mp4" controls></video></td>
+</tr>
+</table>
+
+In a velocity control task, we similarly find a low-level policy produces natural gaits, whereas not using a low-level policy causes the agent to learn idiosyncratic behavior.
+<table>
+<tr>
+  <td><center><font size="4">General low-level policy</font></center></td>
+  <td><center><font size="4">No low-level policy</font></center></td>
+</tr>
+<tr>
+  <td><video width="320" height="240" src="assets/transfer/velocity_control/general_low_level.mp4" type="video/mp4" controls></video></td>
+  <td><video width="320" height="240" src="assets/transfer/velocity_control/no_low_level.mp4" type="video/mp4" controls></video></td>
+</tr>
+<tr>
+  <td><img src="assets/transfer/velocity_control/general_low_level.png" width="90%"></td>
+  <td><img src="assets/transfer/velocity_control/no_low_level.png" width="90%"></td>
+</tr>
+</table>
 
 ## Motion Completion
