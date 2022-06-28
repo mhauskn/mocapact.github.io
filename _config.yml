@@ -1,10 +1,12 @@
-intro:
-title: MoCapAct
-description: A Multi-Task Dataset for Simulated Humanoid Control
+title: MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control
+description: Nolan Wagener, Andrey Kolobov, Felipe Vieira Frujeri, Ricky Loynd, Ching-An Cheng, Matthew Hausknecht
 authors: Nolan Wagener, Andrey Kolobo, Felipe Vieira Frujeri, Ricky Loynd, Ching-An Cheng, Matthew Hausknecht
 buttons:
- Blog: 'https://github.com/'
- Paper: 'https://github.com/'
- Code: 'https://github.com/'
- Talk: 'https://github.com/'
- Slides: 'https://github.com/'
+  Code: 'https://github.com/nolanwagener/MoCapAct'
+  #Blog: TODO
+  #Paper (arXiv): TODO
+  #Paper (OpenReview): TODO
+  #Dataset: TODO
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
