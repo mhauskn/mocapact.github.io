@@ -21,11 +21,8 @@
       {%- for line in site.description -%}
       <span>{{ line }}</span><br>
       {%- endfor -%}
-      {{ site.authors }}
+      <i>{{ site.authors }}</i>
       </h2>
-      <!-- <h2 class="project-authors">
-      <span></span><br>
-      </h2> -->
       {% for link in site.buttons %}
         <a href="{{ link[1] }}" class="btn">{{ link[0] }}</a>
       {% endfor %}
