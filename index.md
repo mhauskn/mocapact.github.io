@@ -5,7 +5,7 @@ title: 'MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control' layout: d
 <style>thead { display: none; }</style>
 
 <p align="center">
-  <img src="assets/MoCapAct.png" alt="overview" width="80%">
+  <img src="assets/MoCapAct.png" alt="overview" width="70%">
 </p>
 
 ## Abstract
