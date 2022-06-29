@@ -128,9 +128,9 @@ We can re-use the low-level component of the mutli-clip policy to aid in learnin
 In a go-to-target task with a sparse reward, we find that including a low-level policy is needed to solve the task. The low-level policy introduces natural gaits, whereas not using a low-level policy produces unstable contorting behavior.
 <table>
 <tr>
-  <td><center><font size="4">General low-level policy</font></center></td>
-  <td><center><font size="4">Locomotion low-level policy</font></center></td>
-  <td><center><font size="4">No low-level policy</font></center></td>
+  <td><center><font size="4"><b>General low-level policy</b></font></center></td>
+  <td><center><font size="4"><b>Locomotion low-level policy</b></font></center></td>
+  <td><center><font size="4"><b>No low-level policy</b></font></center></td>
 </tr>
 <tr>
   <td><video width="480" height="360" src="assets/transfer/go_to_target/general_low_level.mp4" type="video/mp4" controls></video></td>
@@ -142,8 +142,8 @@ In a go-to-target task with a sparse reward, we find that including a low-level 
 In a velocity control task, we similarly find a low-level policy produces natural gaits, whereas not using a low-level policy causes the agent to learn idiosyncratic behavior.
 <table>
 <tr>
-  <td><center><font size="4">General low-level policy</font></center></td>
-  <td><center><font size="4">No low-level policy</font></center></td>
+  <td><center><font size="4"><b>General low-level policy</b></font></center></td>
+  <td><center><font size="4"><b>No low-level policy</b></font></center></td>
 </tr>
 <tr>
   <td><video width="480" height="360" src="assets/transfer/velocity_control/general_low_level.mp4" type="video/mp4" controls></video></td>
@@ -190,7 +190,7 @@ This typically happens if the context gives ambiguous information.
 </tr>
 </table>
 
-On some clips of very unique behavior, the GPT can reproduce the snippet. After the end fo the snippet, the policy makes a mistake and causes the humanoid to fall over.
+On some clips of very unique behavior, the GPT can reproduce the snippet. After the end of the snippet, the policy makes a mistake and causes the humanoid to fall over.
 <table>
 <tr>
   <td><video width="480" height="360" src="assets/gpt/videos/CMU_049_06.mp4" type="video/mp4" controls></video></td>
