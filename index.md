@@ -30,7 +30,7 @@ The HDF5 files can be used to train a multi-clip policy or GPT policy.
 Please refer to Appendix B of our paper for the structure of the experts and HDF5 files.
 
 ## Download Instructions
-We provide links to download the three components of the dataset in the form of gzip files.
+We will soon provide links to download the three components of the dataset in the form of gzip files.
 We also provide a Python script to download a user-provided subset of the dataset.
 Specify a type `-t` from `<experts | small_dataset | larget_dataset>`, a comma-separated list of clips `-c` (e.g., `CMU_001_01,CMU_002_01`) or a specific subset from <tt>dm_control</tt>'s [MoCap subsets](https://github.com/deepmind/dm_control/blob/main/dm_control/locomotion/tasks/reference_pose/cmu_subsets.py) of form `<get_up | walk_tiny | run_jump_tiny | locomotion_small | all>`, and a destination path `-d`.
 For example:
