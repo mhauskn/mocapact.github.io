@@ -171,9 +171,9 @@ On many locomotion clips, the GPT policy will produce limit cycles that match th
   <td><video width="480" height="360" src="assets/gpt/videos/CMU_069_21.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><img src="assets/gpt/pca/CMU_016_25.png" width="480"></td>
-  <td><img src="assets/gpt/pca/CMU_038_03.png" width="480"></td>
-  <td><img src="assets/gpt/pca/CMU_069_21.png" width="480"></td>
+  <td><center><img src="assets/gpt/pca/CMU_016_25.png" width="360"></center></td>
+  <td><center><img src="assets/gpt/pca/CMU_038_03.png" width="360"></center></td>
+  <td><center><img src="assets/gpt/pca/CMU_069_21.png" width="360"></center></td>
 </tr>
 </table>
 
@@ -185,8 +185,8 @@ This typically happens if the context gives ambiguous information.
   <td><video width="480" height="360" src="assets/gpt/videos/CMU_069_42-0-206.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><img src="assets/gpt/pca/CMU_015_05-948-1139.png" width="480"></td>
-  <td><img src="assets/gpt/pca/CMU_069_42-0-206.png" width="480"></td>
+  <td><center><img src="assets/gpt/pca/CMU_015_05-948-1139.png" width="360"></center></td>
+  <td><center><img src="assets/gpt/pca/CMU_069_42-0-206.png"    width="360"></center></td>
 </tr>
 </table>
 
@@ -197,8 +197,8 @@ On some clips of very unique behavior, the GPT can reproduce the snippet. After 
   <td><video width="480" height="360" src="assets/gpt/videos/CMU_061_01-172.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><img src="assets/gpt/pca/CMU_049_06.png" width="480"></td>
-  <td><img src="assets/gpt/pca/CMU_061_01-172.png" width="480"></td>
+  <td><center><img src="assets/gpt/pca/CMU_049_06.png"     width="360"></center></td>
+  <td><center><img src="assets/gpt/pca/CMU_061_01-172.png" width="360"></center></td>
 </tr>
 </table>
 
@@ -213,9 +213,9 @@ In the other two videos, the policy produces very different behavior than the un
   <td><video width="480" height="360" src="assets/gpt/videos/CMU_069_46.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><img src="assets/gpt/pca/CMU_008_02.png" width="480"></td>
-  <td><img src="assets/gpt/pca/CMU_041_04.png" width="480"></td>
-  <td><img src="assets/gpt/pca/CMU_069_46.png" width="480"></td>
+  <td><center><img src="assets/gpt/pca/CMU_008_02.png" width="360"></center></td>
+  <td><center><img src="assets/gpt/pca/CMU_041_04.png" width="360"></center></td>
+  <td><center><img src="assets/gpt/pca/CMU_069_46.png" width="360"></center></td>
 </tr>
 </table>
 
@@ -227,8 +227,8 @@ On other held-out clips, the policy fails shortly after the prompt, highlighting
   <td><video width="480" height="360" src="assets/gpt/videos/CMU_015_04-1332.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><img src="assets/gpt/pca/CMU_069_12.png" width="480"></td>
-  <td><img src="assets/gpt/pca/CMU_056_06-0-201.png" width="480"></td>
-  <td><img src="assets/gpt/pca/CMU_015_04-1332-1513.png" width="480"></td>
+  <td><center><img src="assets/gpt/pca/CMU_069_12.png"           width="360"></center></td>
+  <td><center><img src="assets/gpt/pca/CMU_056_06-0-201.png"     width="360"></center></td>
+  <td><center><img src="assets/gpt/pca/CMU_015_04-1332-1513.png" width="360"></center></td>
 </tr>
 </table>
