@@ -73,14 +73,14 @@ On clips where the expert deviates from the clip (e.g., bottom right), the exper
 
 <table>
 <tr>
-  <td><video width="320" height="240" src="assets/clip_expert/deterministic/CMU_016_22-0-82.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/clip_expert/deterministic/CMU_038_03-0-208.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/clip_expert/deterministic/CMU_015_04-1036-1217.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_016_22-0-82.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_038_03-0-208.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_015_04-1036-1217.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><video width="320" height="240" src="assets/clip_expert/deterministic/CMU_049_07-0-127.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/clip_expert/deterministic/CMU_061_01-172-377.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/clip_expert/deterministic/CMU_075_09-0-203.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_049_07-0-127.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_061_01-172-377.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_075_09-0-203.mp4" type="video/mp4" controls></video></td>
 </tr>
 </table>
 
@@ -89,14 +89,14 @@ We generate the dataset by repeatedly rolling out the experts with some injected
 Below are videos showing noisy rollouts for the same clips from the previous section.
 <table>
 <tr>
-  <td><video width="320" height="240" src="assets/clip_expert/noisy/CMU_016_22-0-82.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/clip_expert/noisy/CMU_038_03-0-208.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/clip_expert/noisy/CMU_015_04-1036-1217.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_016_22-0-82.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_038_03-0-208.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_015_04-1036-1217.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><video width="320" height="240" src="assets/clip_expert/noisy/CMU_049_07-0-127.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/clip_expert/noisy/CMU_061_01-172-377.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/clip_expert/noisy/CMU_075_09-0-203.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_049_07-0-127.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_061_01-172-377.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_075_09-0-203.mp4" type="video/mp4" controls></video></td>
 </tr>
 </table>
 
@@ -105,9 +105,9 @@ We then train a multi-clip policy on the dataset to track all the clips in <tt>d
 On some clips, we find the mutli-clip policy can faithfully track the MoCap clip (including very long segments):
 <table>
 <tr>
-  <td><video width="320" height="240" src="assets/multiclip/CMU_016_22.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/multiclip/CMU_069_56.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/multiclip/CMU_015_04.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/multiclip/CMU_016_22.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/multiclip/CMU_069_56.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/multiclip/CMU_015_04.mp4" type="video/mp4" controls></video></td>
 </tr>
 </table>
 
@@ -115,10 +115,10 @@ On other clips, the policy can only track the clip for a short time before makin
 
 <table>
 <tr>
-  <td><video width="320" height="240" src="assets/multiclip/CMU_038_03.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/multiclip/CMU_049_07.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/multiclip/CMU_061_01-172.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/multiclip/CMU_075_09.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/multiclip/CMU_038_03.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/multiclip/CMU_049_07.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/multiclip/CMU_061_01-172.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/multiclip/CMU_075_09.mp4" type="video/mp4" controls></video></td>
 </tr>
 </table>
 
@@ -133,9 +133,9 @@ In a go-to-target task with a sparse reward, we find that including a low-level 
   <td><center><font size="4">No low-level policy</font></center></td>
 </tr>
 <tr>
-  <td><video width="320" height="240" src="assets/transfer/go_to_target/general_low_level.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/transfer/go_to_target/locomotion_low_level.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/transfer/go_to_target/no_low_level.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/transfer/go_to_target/general_low_level.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/transfer/go_to_target/locomotion_low_level.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/transfer/go_to_target/no_low_level.mp4" type="video/mp4" controls></video></td>
 </tr>
 </table>
 
@@ -146,12 +146,12 @@ In a velocity control task, we similarly find a low-level policy produces natura
   <td><center><font size="4">No low-level policy</font></center></td>
 </tr>
 <tr>
-  <td><video width="320" height="240" src="assets/transfer/velocity_control/general_low_level.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/transfer/velocity_control/no_low_level.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/transfer/velocity_control/general_low_level.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/transfer/velocity_control/no_low_level.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><img src="assets/transfer/velocity_control/general_low_level.png" width="320"></td>
-  <td><img src="assets/transfer/velocity_control/no_low_level.png" width="320"></td>
+  <td><img src="assets/transfer/velocity_control/general_low_level.png" width="480"></td>
+  <td><img src="assets/transfer/velocity_control/no_low_level.png" width="480"></td>
 </tr>
 </table>
 
@@ -166,14 +166,14 @@ From there, the GPT policy controls the humanoid (visualized in gold).
 On many locomotion clips, the GPT policy will produce limit cycles that match the MoCap behavior.
 <table>
 <tr>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_016_25.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_038_03.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_069_21.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_016_25.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_038_03.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_069_21.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><img src="assets/gpt/pca/CMU_016_25.png" width="320"></td>
-  <td><img src="assets/gpt/pca/CMU_038_03.png" width="320"></td>
-  <td><img src="assets/gpt/pca/CMU_069_21.png" width="320"></td>
+  <td><img src="assets/gpt/pca/CMU_016_25.png" width="480"></td>
+  <td><img src="assets/gpt/pca/CMU_038_03.png" width="480"></td>
+  <td><img src="assets/gpt/pca/CMU_069_21.png" width="480"></td>
 </tr>
 </table>
 
@@ -181,24 +181,24 @@ On some clips, the GPT policy produces noticeably different behavior from the Mo
 This typically happens if the context gives ambiguous information. 
 <table>
 <tr>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_015_05-948.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_069_42-0-206.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_015_05-948.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_069_42-0-206.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><img src="assets/gpt/pca/CMU_015_05-948-1139.png" width="320"></td>
-  <td><img src="assets/gpt/pca/CMU_069_42-0-206.png" width="320"></td>
+  <td><img src="assets/gpt/pca/CMU_015_05-948-1139.png" width="480"></td>
+  <td><img src="assets/gpt/pca/CMU_069_42-0-206.png" width="480"></td>
 </tr>
 </table>
 
 On some clips of very unique behavior, the GPT can reproduce the snippet. After the end fo the snippet, the policy makes a mistake and causes the humanoid to fall over.
 <table>
 <tr>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_049_06.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_061_01-172.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_049_06.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_061_01-172.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><img src="assets/gpt/pca/CMU_049_06.png" width="320"></td>
-  <td><img src="assets/gpt/pca/CMU_061_01-172.png" width="320"></td>
+  <td><img src="assets/gpt/pca/CMU_049_06.png" width="480"></td>
+  <td><img src="assets/gpt/pca/CMU_061_01-172.png" width="480"></td>
 </tr>
 </table>
 
@@ -208,27 +208,27 @@ In the left video, we see behavior that resembles the MoCap clip, though the PCA
 In the other two videos, the policy produces very different behavior than the underlying clip.
 <table>
 <tr>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_008_02.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_041_04.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_069_46.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_008_02.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_041_04.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_069_46.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><img src="assets/gpt/pca/CMU_008_02.png" width="320"></td>
-  <td><img src="assets/gpt/pca/CMU_041_04.png" width="320"></td>
-  <td><img src="assets/gpt/pca/CMU_069_46.png" width="320"></td>
+  <td><img src="assets/gpt/pca/CMU_008_02.png" width="480"></td>
+  <td><img src="assets/gpt/pca/CMU_041_04.png" width="480"></td>
+  <td><img src="assets/gpt/pca/CMU_069_46.png" width="480"></td>
 </tr>
 </table>
 
 On other held-out clips, the policy fails shortly after the prompt, highlighting that our GPT policy does not generalize perfectly.
 <table>
 <tr>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_069_12.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_056_06.mp4" type="video/mp4" controls></video></td>
-  <td><video width="320" height="240" src="assets/gpt/videos/CMU_015_04-1332.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_069_12.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_056_06.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/gpt/videos/CMU_015_04-1332.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
-  <td><img src="assets/gpt/pca/CMU_069_12.png" width="320"></td>
-  <td><img src="assets/gpt/pca/CMU_056_06-0-201.png" width="320"></td>
-  <td><img src="assets/gpt/pca/CMU_015_04-1332-1513.png" width="320"></td>
+  <td><img src="assets/gpt/pca/CMU_069_12.png" width="480"></td>
+  <td><img src="assets/gpt/pca/CMU_056_06-0-201.png" width="480"></td>
+  <td><img src="assets/gpt/pca/CMU_015_04-1332-1513.png" width="480"></td>
 </tr>
 </table>
