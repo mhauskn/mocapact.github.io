@@ -4,7 +4,7 @@ authors: Nolan Wagener, Andrey Kolobov, Felipe Vieira Frujeri, Ricky Loynd, Chin
 buttons:
   Paper (OpenReview): 'https://openreview.net/forum?id=sWOdnSkB0qu'
   Dataset (Coming Soon!): 'https://msropendata.com/'
-  Code (Coming June 30): 'https://github.com/microsoft/MoCapAct'
+  Code: 'https://github.com/microsoft/MoCapAct'
   #Blog: TODO
   #Paper (arXiv): TODO
 remote_theme: pages-themes/cayman@v0.2.0
