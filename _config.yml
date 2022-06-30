@@ -2,11 +2,11 @@ title: MoCapAct
 description: A Multi-Task Dataset for Simulated Humanoid Control
 authors: Nolan Wagener, Andrey Kolobov, Felipe Vieira Frujeri, Ricky Loynd, Ching-An Cheng, Matthew Hausknecht
 buttons:
-  Code (Coming June 30): 'https://github.com/microsoft/MoCapAct'
+  Paper (OpenReview): 'https://openreview.net/forum?id=sWOdnSkB0qu'
   Dataset (Coming Soon!): 'https://msropendata.com/'
+  Code (Coming June 30): 'https://github.com/microsoft/MoCapAct'
   #Blog: TODO
   #Paper (arXiv): TODO
-  Paper (OpenReview): 'https://openreview.net/forum?id=sWOdnSkB0qu'
   #Dataset: TODO
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
