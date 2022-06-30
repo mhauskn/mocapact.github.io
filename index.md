@@ -56,7 +56,7 @@ dataset = types.ClipCollection(ids=['CMU_083_33'], start_steps=[0], end_steps=[1
 env = tracking.MocapTrackingGymEnv(dataset)
 obs, done = env.reset(), False
 while not done:
-    action = expert.predict(obs, deterministic=True)
+    action, _ = expert.predict(obs, deterministic=True)
     obs, rew, done, _ = env.step(action)
     print(rew)
 ```
