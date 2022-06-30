@@ -32,7 +32,10 @@ Please refer to Appendix B of our paper for the structure of the experts and HDF
 ## Download Instructions
 We will soon provide links to download the three components of the dataset in the form of gzip files.
 We also provide a Python script to download a user-provided subset of the dataset.
-Specify a type `-t` from `<experts | small_dataset | larget_dataset>`, a comma-separated list of clips `-c` (e.g., `CMU_001_01,CMU_002_01`) or a specific subset from <tt>dm_control</tt>'s [MoCap subsets](https://github.com/deepmind/dm_control/blob/main/dm_control/locomotion/tasks/reference_pose/cmu_subsets.py) of form `<get_up | walk_tiny | run_jump_tiny | locomotion_small | all>`, and a destination path `-d`.
+The scripts take the following flags: 
+- `-t`: a type from `<experts | small_dataset | larget_dataset>`,
+- `-c`: a comma-separated list of clips (e.g., `CMU_001_01,CMU_002_01`) or a specific subset from <tt>dm_control</tt>'s [MoCap subsets](https://github.com/deepmind/dm_control/blob/main/dm_control/locomotion/tasks/reference_pose/cmu_subsets.py) of form `<get_up | walk_tiny | run_jump_tiny | locomotion_small | all>`, and
+- `-d`: a destination path.
 For example:
 ```bash
 python -m mocapact.download_dataset -t small_dataset -c CMU_001_01,CMU_002_01 -d ./data
