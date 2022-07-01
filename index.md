@@ -147,14 +147,17 @@ In a velocity control task, we similarly find a low-level policy produces natura
 <table>
 <tr>
   <td><center><font size="4"><b>General low-level policy</b></font></center></td>
+  <td><center><font size="4"><b>Locomotion low-level policy</b></font></center></td>
   <td><center><font size="4"><b>No low-level policy</b></font></center></td>
 </tr>
 <tr>
   <td><video width="480" height="360" src="assets/transfer/velocity_control/general_low_level.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/transfer/velocity_control/locomotion_low_level.mp4" type="video/mp4" controls></video></td>
   <td><video width="480" height="360" src="assets/transfer/velocity_control/no_low_level.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
   <td><img src="assets/transfer/velocity_control/general_low_level.png" width="480"></td>
+  <td><img src="assets/transfer/velocity_control/locomotion_low_level.png" width="480"></td>
   <td><img src="assets/transfer/velocity_control/no_low_level.png" width="480"></td>
 </tr>
 </table>
