@@ -78,10 +78,12 @@ On clips where the expert deviates from the clip (e.g., bottom right), the exper
   <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_016_22-0-82.mp4" type="video/mp4" controls></video></td>
   <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_038_03-0-208.mp4" type="video/mp4" controls></video></td>
   <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_015_04-1036-1217.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_061_01-172-377.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
   <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_049_07-0-127.mp4" type="video/mp4" controls></video></td>
-  <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_061_01-172-377.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_049_02-405-575.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_090_06-0-170.mp4" type="video/mp4" controls></video></td>
   <td><video width="480" height="360" src="assets/clip_expert/deterministic/CMU_075_09-0-203.mp4" type="video/mp4" controls></video></td>
 </tr>
 </table>
@@ -89,15 +91,21 @@ On clips where the expert deviates from the clip (e.g., bottom right), the exper
 ## Noisy Rollouts
 We generate the dataset by repeatedly rolling out the experts with some injected action noise and recording the observations, actions, rewards, etc.
 Below are videos showing noisy rollouts for the same clips from the previous section.
+
+For most snippets, the rollouts look very similar.
+This is because the experts are trained to track the MoCap clips in spite the injected noise.
+This helps the learned multi-clip and GPT policies to correct the mistakes they make in a rollout.
 <table>
 <tr>
   <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_016_22-0-82.mp4" type="video/mp4" controls></video></td>
   <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_038_03-0-208.mp4" type="video/mp4" controls></video></td>
   <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_015_04-1036-1217.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_061_01-172-377.mp4" type="video/mp4" controls></video></td>
 </tr>
 <tr>
   <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_049_07-0-127.mp4" type="video/mp4" controls></video></td>
-  <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_061_01-172-377.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_049_02-405-575.mp4" type="video/mp4" controls></video></td>
+  <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_090_06-0-170.mp4" type="video/mp4" controls></video></td>
   <td><video width="480" height="360" src="assets/clip_expert/noisy/CMU_075_09-0-203.mp4" type="video/mp4" controls></video></td>
 </tr>
 </table>
