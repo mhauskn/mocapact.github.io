@@ -95,7 +95,7 @@ python -m mocapact.download_dataset -t experts -d ./data \
 python -m mocapact.clip_expert.evaluate \
   --policy_root ./data/experts/CMU_016_22-0-82/eval_rsi_model \
   --act_noise 0 \
-  --ghost_offset 1
+  --ghost_offset 1 \
   --always_init_at_clip_start
 # other snippets are CMU_015_04-1036-1217, CMU_038_03-0-208, CMU_049_02-405-575, CMU_049_07-0-127,
 # CMU_061_01-172-377, CMU_075_09-0-203, CMU_090_06-0-170
