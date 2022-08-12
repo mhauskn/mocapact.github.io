@@ -105,7 +105,7 @@ We generate the dataset by repeatedly rolling out the experts with some injected
 Below are videos showing noisy rollouts for the same clips from the previous section.
 
 For most snippets, the rollouts look very similar.
-This is because the experts are trained to track the MoCap clips in spite the injected noise.
+This is because the experts are trained to track the MoCap clips in spite of the injected noise.
 This helps the learned multi-clip and GPT policies to correct the mistakes they make in a rollout.
 <table>
 <tr>
