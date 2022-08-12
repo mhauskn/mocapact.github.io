@@ -15,7 +15,7 @@ One widely studied approach is to utilize motion capture (MoCap) data to teach t
 However, even with MoCap data, controlling simulated humanoids remains very hard, as MoCap data offers only kinematic information. Finding physical control inputs to realize the demonstrated motions requires computationally intensive methods like reinforcement learning.
 Thus, despite the publicly available MoCap data, its utility has been limited to institutions with large-scale compute.
 In this work, we dramatically lower the barrier for productive research on this topic by training and releasing high-quality agents that can track over three hours of MoCap data for a simulated humanoid in the <tt>dm_control</tt> physics-based environment.
-We release <b>MoCapAct</b> (Motion Capture with Actions), a dataset of these expert agents and their rollouts containing proprioceptive observations and actions.
+We release <b>MoCapAct</b> (Motion Capture with Actions), a dataset of these expert agents and their rollouts, which contain proprioceptive observations and actions.
 We demonstrate the utility of MoCapAct by using it to train a <em>single</em> hierarchical policy capable of tracking the <em>entire</em> MoCap dataset within <tt>dm_control</tt> and show the learned low-level component can be re-used to efficiently learn downstream high-level tasks.
 Finally, we use MoCapAct to train an autoregressive GPT model and show that it can control a simulated humanoid to perform natural motion completion given a motion prompt.
 
