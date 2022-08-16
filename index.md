@@ -327,7 +327,7 @@ python -m mocapact.distillation.motion_completion.py \
 
 ## Citation
 
-If you reference or use MoCapAct in your research, please consider citing:
+If you reference or use MoCapAct in your research, please cite:
 
 ```bibtex
 @article{wagener2022mocapact,
